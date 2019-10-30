@@ -1,0 +1,87 @@
+.form-control {
+    border: none;
+}
+
+.container {
+    margin-bottom: 5%; !important;
+}
+
+#titulo::placeholder {
+    color: darkgray !important;
+    font-size: 20pt !important;
+    font-weight: bolder !important;
+}
+
+#conteudo::placeholder {
+    color: darkgray !important;
+}
+
+.navbar .navbar-nav {
+    display: block;
+    float: left;
+    width: 40%;
+    margin-left: 40%;
+}
+
+.nav-item {
+    width: 50%;
+    float: left;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.nav-link {
+    font-size: 13pt;
+    font-weight: bolder;
+    color: darkgrey;
+}
+
+.nav-link:hover {
+    color: orange;
+    border-bottom: 2px solid orange;
+    padding: 0 0 4px;
+    transition: 0.4s;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.btn {
+    width: 15%;
+}
+
+#conteudo {
+    resize: none;
+}
+
+#btn-adicionar {
+    color: white;
+    font-weight: bolder;
+    font-size: 12pt;
+}
+
+#btn-excluir {
+    color: yellow;
+    font-weight: bolder;
+    font-size: 12pt;
+    border-color: yellow;
+}
+
+
+.btn-circle.btn-xl {
+    width: 50px;
+    height: 50px;
+    padding: 2px 8px;
+    border-radius: 35px;
+    font-size: 30px;
+    color: lightgray;
+    text-align: center;
+    border-color: lightgray;
+}
